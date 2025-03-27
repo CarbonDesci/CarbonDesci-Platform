@@ -102,25 +102,24 @@ CarbonDesci follows a modular, scalable architecture designed to integrate envir
 
 ## Project Roadmap
 
-### Phase 1: Foundation (Q2 2024)
+### Phase 1: Token Launch (Q1 2025)
 * ✅ Platform architecture design
-* ✅ Smart contract development
+* ✅ Smart contract development and project launch
 * ✅ Frontend MVP development
 * ⬜ Initial partnerships
 
-### Phase 2: Beta Launch (Q3-Q4 2024)
+### Phase 2: Product Beta Launch (Q2-Q3 2025)
 * ⬜ Testnet deployment
 * ⬜ Beta testing program
 * ⬜ Community building
 * ⬜ Research institution partnerships
 
-### Phase 3: Mainnet Launch (Q1 2025)
+### Phase 3: Mainnet Launch (Q4 2025)
 * ⬜ Platform mainnet launch
-* ⬜ CCT token generation event
 * ⬜ Research proposal system launch
-* ⬜ Exchange listings
+* ⬜ Research institution partnerships
 
-### Phase 4: Expansion (Q2-Q3 2025)
+### Phase 4: Expansion (Q1-Q2 2026)
 * ⬜ Mobile app launch
 * ⬜ Advanced data analytics
 * ⬜ Cross-chain integration
@@ -186,13 +185,6 @@ CarbonDesci features the CCT (Carbon Credit Token):
   - Research funding allocation
   - Carbon credit trading
 
-* **Distribution**:
-  - 30% Community rewards
-  - 25% Research funding
-  - 20% Team and development
-  - 15% Ecosystem growth
-  - 10% Strategic partners
-
 ## FAQ
 
 ### What makes CarbonDesci different from other carbon credit platforms?
@@ -221,10 +213,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-* Website: [carbondesci.org](https://carbondesci.org)
-* Twitter: [@CarbonDesci](https://twitter.com/CarbonDesci)
-* Email: contact@carbondesci.org
-* GitHub: [CarbonDesci](https://github.com/CarbonDesci)
+* Website: [carbon-sci.xyz](https://carbon-sci.xyz)
+* Twitter: [@carbonsci_xyz]((https://x.com/carbonsci_xyz))
+* GitHub: [CarbonDesci](https://github.com/CarbonDesci-Platform)
 
 ## Acknowledgments
 
