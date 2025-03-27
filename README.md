@@ -1,135 +1,98 @@
-# CarbonSci (CCT)
+# CarbonDesci Platform
 
-<div align="center">
-  <img src="assets/logo.svg" alt="CarbonSci Logo" width="200"/>
-  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
-  [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-  [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-  [![Web3](https://img.shields.io/badge/Web3-F16822?style=flat-square&logo=web3.js&logoColor=white)](https://web3js.readthedocs.io/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-</div>
+A decentralized platform for environmental science research and carbon credit management.
 
-CarbonSci is a Web3-based Decentralized Science (DeSci) platform focused on environmental science, carbon credit markets, and AI-driven sustainable development research.
+## Overview
 
-## Project Architecture
+CarbonDesci Platform is a Web3-enabled platform that connects environmental researchers, data contributors, and stakeholders in the carbon credit ecosystem. The platform facilitates:
 
-### Backend (Node.js + Express)
-- `server/`
-  - `src/`: Backend source code
-    - `controllers/`: Controllers
-    - `models/`: Data models
-    - `routes/`: API routes
-    - `services/`: Business logic
-    - `utils/`: Utility functions
-  - `config/`: Configuration files
+- Research proposal submission and funding
+- Environmental data collection and validation
+- Carbon credit token (CCT) management
+- Decentralized governance for research funding
 
-### Frontend (React)
-- `client/`
-  - `src/`: React application source code
-    - `components/`: UI components
-    - `pages/`: Page components
-    - `hooks/`: React hooks
-    - `utils/`: Utility functions
-    - `services/`: API services
-  - `public/`: Static assets
+## Technology Stack
 
-### Database
-- MongoDB: Store user data, proposals, transaction records, etc.
+### Frontend
+- React.js with TypeScript
+- Tailwind CSS for styling
+- Web3.js for blockchain integration
+- React Router for navigation
 
-## Development Setup
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT for authentication
+
+### Smart Contracts
+- Solidity
+- Hardhat for development
+- OpenZeppelin for standard contracts
+
+## Getting Started
 
 ### Prerequisites
-- Node.js >= 16
+- Node.js (v14 or higher)
 - MongoDB
 - MetaMask wallet
+- Git
 
-### Installation Steps
-1. Clone the repository
+### Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/carbonsci.git
-cd carbonsci
+git clone https://github.com/CarbonDesci/CarbonDesci-Platform.git
+cd CarbonDesci-Platform
 ```
 
-2. Install dependencies
+2. Install backend dependencies:
 ```bash
-# Install backend dependencies
 cd server
 npm install
+cp .env.example .env
+```
 
-# Install frontend dependencies
+3. Install frontend dependencies:
+```bash
 cd ../client
 npm install
+cp .env.example .env
 ```
 
-3. Start development environment
+4. Configure environment variables:
+- Update `server/.env` with your MongoDB URI and JWT secret
+- Update `client/.env` with your API URL and Web3 provider
+
+### Running the Application
+
+1. Start the backend server:
 ```bash
-# Start backend server
 cd server
 npm run dev
+```
 
-# Start frontend development server
+2. Start the frontend application:
+```bash
 cd client
 npm start
 ```
 
-## Core Features
+The application will be available at `http://localhost:3000`
 
-### MVP Phase
-1. User System
-   - User registration/login
-   - Wallet connection
-   - Profile management
+## Features
 
-2. Proposal System
-   - Proposal submission
-   - Proposal listing
-   - Basic voting functionality
-   - Proposal details page
-
-3. Token System
-   - Token balance query
-   - Token transfer
-   - Transaction history
-
-4. Data Contribution System
-   - Environmental data upload
-   - Data validation
-   - Contribution rewards
-
-5. User Interface
-   - Responsive design
-   - Dark/Light theme
-   - Multi-language support
-
-## Tech Stack Details
-
-### Backend
-- Node.js + Express
-- MongoDB + Mongoose
-- JWT Authentication
-- Web3.js (Ethereum interaction)
-- Socket.IO (Real-time communication)
-
-### Frontend
-- React 18
-- TypeScript
-- Tailwind CSS
-- Web3-React
-- React Router
-- Axios
-
-### Development Tools
-- ESLint
-- Prettier
-- Jest (Testing)
-- Docker (Containerization)
+- 🔐 Secure authentication with JWT and Web3 wallet
+- 📊 Dashboard for research proposals and data contributions
+- 💰 CCT token management and staking
+- 🗳️ Decentralized voting system for proposals
+- 📱 Responsive design for all devices
 
 ## Contributing
 
-1. Fork the project
+We welcome contributions from the community! Please read our contributing guidelines before submitting pull requests.
+
+1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
@@ -137,4 +100,14 @@ npm start
 
 ## License
 
-MIT License - See LICENSE file for details 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Project Link: [https://github.com/CarbonDesci/CarbonDesci-Platform](https://github.com/CarbonDesci/CarbonDesci-Platform)
+
+## Acknowledgments
+
+- OpenZeppelin for smart contract libraries
+- The Web3 community for inspiration and support
+- All contributors who help make this project better 
