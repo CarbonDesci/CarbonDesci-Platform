@@ -229,7 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 * Website: [carbon-sci.xyz](https://carbon-sci.xyz)
-* Twitter: [@carbonsci_xyz][((https://x.com/carbonsci_xyz)]
+* Twitter: [@carbonsci_xyz](https://x.com/carbonsci_xyz)
 
 ## Acknowledgments
 
