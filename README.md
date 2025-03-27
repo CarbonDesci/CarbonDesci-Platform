@@ -121,7 +121,7 @@ CarbonDesci follows a modular, scalable architecture designed to integrate envir
 * ✅ Platform architecture design
 * ✅ Smart contract development and project launch
 * ✅ Frontend MVP development
-* ⬜ Initial partnerships
+* ✅ Initial partnerships
 
 ### Phase 2: Product Beta Launch (Q2-Q3 2025)
 * ⬜ Testnet deployment
@@ -229,8 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 * Website: [carbon-sci.xyz](https://carbon-sci.xyz)
-* Twitter: [@carbonsci_xyz]((https://x.com/carbonsci_xyz))
-* GitHub: [CarbonDesci](https://github.com/CarbonDesci-Platform)
+* Twitter: [@carbonsci_xyz][((https://x.com/carbonsci_xyz)]
 
 ## Acknowledgments
 
