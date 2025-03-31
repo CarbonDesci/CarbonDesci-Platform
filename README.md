@@ -228,9 +228,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-* Website: <a href="https://carbon-sci.xyz" target="_blank">carbon-sci.xyz</a>
-* Twitter: <a href="https://x.com/carbonsci_xyz" target="_blank">@carbonsci_xyz</a>
-* GitHub: [CarbonDesci](https://github.com/CarbonDesci-Platform)
+- Website: [https://carbonsci.io](https://carbonsci.io){:target="_blank"}
+- Twitter: [@CarbonDesci](https://twitter.com/CarbonDesci){:target="_blank"}
+- Email: contact@carbonsci.io
+- GitHub: [CarbonDesci/CarbonDesci-Platform](https://github.com/CarbonDesci/CarbonDesci-Platform){:target="_blank"}
 
 ## Acknowledgments
 
